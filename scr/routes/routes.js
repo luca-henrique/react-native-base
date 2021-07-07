@@ -2,8 +2,8 @@ import React from 'react';
 import {createDrawerNavigator} from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
 
-import Home from '../pages/home';
-import Search from '../pages/search';
+import Home from '../screens/home';
+import Search from '../screens/search';
 
 const Drawer = createDrawerNavigator();
 

@@ -1,7 +1,14 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import Routes from './scr/routes/routes';
+import {NavigationContainer} from '@react-navigation/native';
 
-const App = () => <Routes />;
+import BottomTabNavigator from './scr/routes/navigation/TabNavigator';
 
+const App = () => {
+  return (
+    <NavigationContainer>
+      <BottomTabNavigator />
+    </NavigationContainer>
+  );
+};
 export default App;
