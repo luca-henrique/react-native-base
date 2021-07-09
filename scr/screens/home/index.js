@@ -1,6 +1,9 @@
 import React from 'react';
 import {View, Button, Text, StyleSheet} from 'react-native';
 
+import SvgImport from './Text';
+import Account from './account_balance.svg';
+
 const Home = ({navigation}) => {
   return (
     <View style={styles.center}>
@@ -9,6 +12,10 @@ const Home = ({navigation}) => {
         title="Go to About Screen"
         onPress={() => navigation.navigate('About')} // We added an onPress event which would navigate to the About screen
       />
+
+      <SvgImport />
+
+      <Account />
     </View>
   );
 };
