@@ -1,8 +1,10 @@
 import React from 'react';
 import {View, Button, Text, StyleSheet} from 'react-native';
 
-import SvgImport from './Text';
+import {SvgXml} from 'react-native-svg';
 import Account from './account_balance.svg';
+
+const Teste = () => <SvgXml width="35" height="35" xml={Account} />;
 
 const Home = ({navigation}) => {
   return (
@@ -13,9 +15,7 @@ const Home = ({navigation}) => {
         onPress={() => navigation.navigate('About')} // We added an onPress event which would navigate to the About screen
       />
 
-      <SvgImport />
-
-      <Account />
+      <Teste />
     </View>
   );
 };
