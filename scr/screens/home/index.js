@@ -2,11 +2,14 @@ import React from 'react';
 import {View, Button, Text, StyleSheet} from 'react-native';
 
 import {SvgXml} from 'react-native-svg';
+import {useSelector} from 'react-redux';
 import Account from './account_balance.svg';
 
 const Teste = () => <SvgXml width="35" height="35" xml={Account} />;
 
 const Home = ({navigation}) => {
+  const user = useSelector((state) => state.user);
+  console.log(user);
   return (
     <View style={styles.center}>
       <Text>This is the home screen</Text>
