@@ -6,6 +6,16 @@
       {
         "extensions": [".svg"]
       }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": "./src",
+        "alias": {
+          "components": "./components/*"
+        },
+        "cwd": "packagejson"
+      }
     ]
   ]
 }
