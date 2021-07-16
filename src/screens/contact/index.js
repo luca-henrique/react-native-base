@@ -10,7 +10,7 @@ import {
 import {Formik, Field} from 'formik';
 import * as yup from 'yup';
 
-import CustomInput from '@components/atoms/Input/InputTeste';
+import CustomInput from 'components/atoms/Input/InputTeste';
 
 const signUpValidationSchema = yup.object().shape({
   fullName: yup

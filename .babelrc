@@ -10,9 +10,8 @@
     [
       "module-resolver",
       {
-        "root": "./src",
         "alias": {
-          "components": "./components/*"
+          "components": "./src/components/"
         },
         "cwd": "packagejson"
       }
