@@ -5,7 +5,7 @@ import Index from './App';
 import {name as appName} from './app.json';
 
 import {Provider} from 'react-redux';
-import store from './scr/store';
+import store from './src/store';
 
 const App = () => {
   return (

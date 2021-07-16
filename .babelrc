@@ -6,6 +6,15 @@
       {
         "extensions": [".svg"]
       }
+    ],
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "components": "./src/components/"
+        },
+        "cwd": "packagejson"
+      }
     ]
   ]
 }
