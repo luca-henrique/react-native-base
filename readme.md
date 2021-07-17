@@ -14,6 +14,10 @@
 
 - https://blog.logrocket.com/react-native-form-validations-with-formik-and-yup/
 
+- https://www.youtube.com/watch?v=i28btjntmNE
+
+- https://stackoverflow.com/questions/67093053/react-native-execution-failed-for-task-appgeneratepackagelist
+
 # Clearing the Cache of your React Native Project
 
 RN < 0.50 - watchman watch-del-all && rm -rf $TMPDIR/react-_ && rm -rf node_modules/ && npm cache clean && npm install && npm start -- --reset-cache
